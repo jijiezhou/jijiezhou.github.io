@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: ZJJ Code
+ * @version: 1.0.0
+ * @Author: ZJJ
+ * @Date: 2024-02-03 15:21:02
+ * @LastEditors: ZJJ
+ * @LastEditTime: 2024-03-03 15:48:37
+ */
 import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
@@ -73,7 +81,6 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
               <ToggleSwitch />
             </a>
