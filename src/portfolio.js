@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applicatons with Java(Spring) Batch and MERN stack. I am actively seeking opportunites of NG and Intern as Software Engineer!"
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,7 +36,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/jijiezhou",
   gmail: "jijiez2001@gmail.com",
   //facebook: "https://www.facebook.com/saad.pasta7",
-  //medium: "https://medium.com/@saadpasta",
+  medium: "https://jijiezhou.com",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -53,13 +52,15 @@ const skillsSection = {
     emoji(
       "⚡ Programming language: Java, JavaScript, SQL, Python, C, C++, Linux"
     ),
-    emoji("⚡ Backend: Spring, Spring MVC, Spring Boot, MyBatis, MyBatis Plus, Node.js, Express.js, MySQL, MongoDB, Redis"),
+    emoji(
+      "⚡ Backend: Spring, Spring MVC, Spring Boot, MyBatis, MyBatis Plus, Node.js, Express.js, MySQL, MongoDB, Redis"
+    ),
     emoji(
       "⚡ Frontend: HTML, CSS, React.js, Vue.js, ElementUI, Bootstrap, Ajax, JSON"
     ),
     emoji(
       "⚡ Tools: Git, Maven, Vim, IDEA, Docker, Nginx, AWS, Azure, Kubernetes"
-    ),
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -69,7 +70,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
-    },   
+    },
     {
       skillName: "MySQL",
       fontAwesomeClassname: "fas fa-database"
@@ -77,7 +78,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },  
+    },
     {
       skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
@@ -135,7 +136,7 @@ const educationInfo = {
         "Modern Web Programming;  Software Engineering Lab",
         "Machine Learning;  Digital Logic and Computer Design"
       ]
-    },
+    }
   ]
 };
 
@@ -150,11 +151,11 @@ const techStack = {
     },
     {
       Stack: "Frontend",
-      progressPercentage: "75%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Data Science",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -299,24 +300,23 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle: "Personal blogs of computer science",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://jijiezhou.com",
+      title: "Cracking CS",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Cracking Leetcode/ Cracking Java/ Cracking Spring/ Cracking Database"
     }
+    // {
+    //   url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+    //   title: "Why REACT is The Best?",
+    //   description:
+    //     "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -353,9 +353,10 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Actively seeking opportunites of NG and Intern as Software Engineer",
+  subtitle:
+    "Actively seeking opportunites of NG and Intern as Software Engineer",
   number: "+1-9842615618",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "jijiez2001@gmail.com"
 };
 
 // Twitter Section
