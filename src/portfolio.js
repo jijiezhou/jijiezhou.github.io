@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/jijiezhou",
   linkedin: "https://www.linkedin.com/in/jijiezhou",
-  gmail: "jijiez2001@gmail.com",
+  gmail: "jijiezzhou@gmail.com",
   //facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://jijiezhou.com",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
